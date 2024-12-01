@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2d2d2d;  /* Fondo oscuro */
+    color: white;  /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #7a3d99, #6a1b9a); /* Degradado morado */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilos para el cuadrado con imagen y texto */
+.rom-square {
+    background-color: #7a3d99; /* Color morado */
+    border-radius: 15px;  /* Bordes redondeados */
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    margin-right: 20px;
+}
+
+.rom-square img {
+    width: 100%;
+    border-radius: 10px;  /* Bordes redondeados para la imagen */
+}
+
+.rom-square h2 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 15px;
+}
